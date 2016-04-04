@@ -1,6 +1,6 @@
-# gruntExample
 
-Soliton Web Tips
+# Grunt-Workout
+A simple project to understand grunt
 
 ## Getting Started
 Install the module with: `npm install gruntExample`
