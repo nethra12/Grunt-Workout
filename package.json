@@ -20,7 +20,7 @@
       "url": "https://github.com/Manoj/Grunt_Project/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/gruntExample",
+  "main": "index.html",
   "engines": {
     "node": ">= 0.8.0"
   },

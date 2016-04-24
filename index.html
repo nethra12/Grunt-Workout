@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>Image Convertor</title>
+		<script type="text/javascript" src="lib/gruntExample.js"></script> 
+		<script>
+			function convert(){
+				main(document.getElementById("inputName").value,document.getElementById("convertTo").value,document.getElementById("outputName").value);
+			}
+		</script>
+	<body>
+	</head>
+		<input type="file" name="filename" required id="inputName">Select the Image to Convert</input>
+		<input type="button" name="convert" value="Click here to convert!" onclick="convert()"></input>
+		<input type="text" name="convertTo" id="convertTo">Convert To : </input>
+	</body>
+</html>
