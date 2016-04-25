@@ -4,13 +4,29 @@
 		<script type="text/javascript" src="lib/gruntExample.js"></script> 
 		<script>
 			function convert(){
-				main(document.getElementById("inputName").value,document.getElementById("convertTo").value,document.getElementById("outputName").value);
+				var convertedLoc = main(document.getElementById("inputName").value,document.getElementById("convertTo").value);
 			}
 		</script>
 	<body>
 	</head>
-		<input type="file" name="filename" required id="inputName">Select the Image to Convert</input>
-		<input type="button" name="convert" value="Click here to convert!" onclick="convert()"></input>
-		<input type="text" name="convertTo" id="convertTo">Convert To : </input>
+		<div>
+			Select the Image to Convert : <input type="file" name="filename" required id="inputName"></input>
+		</div>
+		<br>
+		<div> Select the format to convert To : 
+			<select id="convertTo">
+			  <option value="png">PNG</option>
+			  <option value="jpeg">JPEG</option>
+			  <option value="bmp">BMP</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<input type="button" name="convert" value="Click here to convert!" onclick="convert()"></input>
+		</div>
+		<br>
+		<div>
+			<p id="result"></p>
+		</div>
 	</body>
 </html>

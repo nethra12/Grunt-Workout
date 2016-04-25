@@ -41,5 +41,11 @@
     "colors": "^1.1.2",
     "jimp": "^0.2.21",
     "q": "^1.4.1"
+  },
+  "window": {
+    "title": "Image Convertor",
+    "toolbar": false,
+    "frame": true,
+    "position": "center"
   }
 }
